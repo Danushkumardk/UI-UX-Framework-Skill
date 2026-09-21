@@ -1,0 +1,230 @@
+# UI/UX Framework AI Skills
+
+A collection of reusable AI skills for auditing UI and UX designs using a structured framework.
+
+These skills are designed for designers who want to use AI to review Figma screens, user flows, and digital product interfaces in a consistent and structured way.
+
+## Skills Included
+
+### 1. UI Framework Compliance Auditor
+
+The **UI Framework Compliance Auditor** reviews the visual and structural quality of a screen.
+
+It focuses on:
+
+* Visual hierarchy
+* Layout and spacing
+* Typography
+* Colour and contrast
+* UI consistency
+* States and feedback
+* Data presentation
+* Handoff readiness
+
+The audit is **UI-focused** and does not evaluate user flows, business strategy, user psychology, or product intent.
+
+It produces a structured, score-free UI audit report with findings, severity levels, framework gaps, and recommendations.
+
+### 2. UX Framework Compliance Auditor
+
+The **UX Framework Compliance Auditor** reviews usability, interaction clarity, and task logic across screens and flows.
+
+It focuses on:
+
+* Task clarity
+* Information architecture
+* Interaction logic
+* Navigation and wayfinding
+* Feedback and system status
+* Error prevention and recovery
+* Cognitive load and friction
+* Flow completeness
+
+The audit is **UX-focused** and does not evaluate visual styling, branding, aesthetics, or technical implementation.
+
+It produces a structured, score-free UX audit report with findings, severity levels, framework gaps, and recommendations.
+
+---
+
+# How to Use
+
+These skills can be used with an AI agent that can access or inspect your design.
+
+For example, you can:
+
+1. Open your Figma file.
+2. Give the AI agent the relevant skill.
+3. Allow the agent to inspect the selected Figma screen or flow.
+4. Ask the agent to run the UI or UX audit.
+5. The agent follows the framework and generates the audit report.
+6. Use the findings to improve your design.
+
+The skill itself is an **audit instruction set**. It tells the AI what to inspect, what not to assume, how to structure the review, and how to report the findings.
+
+---
+
+# Using with Other AI Agents
+
+These skills are not limited to one AI tool.
+
+They can be used with any AI agent that can:
+
+* Read the skill instructions
+* Access the design or screenshots
+* Understand the relevant UI context
+* Analyse screens or flows
+
+The workflow is:
+
+```text
+AI Agent
+   ↓
+Load the Skill
+   ↓
+Access Figma / Design
+   ↓
+Declare Context
+   ↓
+Run Audit
+   ↓
+Generate Report
+   ↓
+Designer Reviews Findings
+```
+
+The same skill can therefore be adapted to different AI tools and agent workflows.
+
+---
+
+# UI Audit vs UX Audit
+
+| UI Framework Auditor | UX Framework Auditor     |
+| -------------------- | ------------------------ |
+| Visual hierarchy     | Task clarity             |
+| Layout & spacing     | Information architecture |
+| Typography           | Interaction logic        |
+| Colour & contrast    | Navigation               |
+| UI consistency       | Feedback                 |
+| States & feedback    | Error prevention         |
+| Data presentation    | Cognitive load           |
+| Handoff readiness    | Flow completeness        |
+
+### Simple rule
+
+**UI Audit = How the interface looks and is structured**
+
+**UX Audit = How the interface works and guides the user**
+
+For a complete product review, you can run both audits separately.
+
+---
+
+# Audit Process
+
+Both skills follow a controlled three-stage process:
+
+### 1. Context Declaration
+
+The AI first establishes the relevant context before auditing.
+
+Unknown information is allowed and is treated as a risk flag rather than a blocker.
+
+### 2. Audit
+
+The AI reviews the design against the relevant framework sections.
+
+### 3. Report
+
+The AI generates a structured, score-free report containing:
+
+* Executive summary
+* Key risks
+* Context summary
+* Reviewed screens or flows
+* Findings
+* Global issues
+* Framework gaps
+* Recommendations
+* Audit closure note
+
+## This process is intentionally structured to make audits consistent and repeatable.
+
+# Severity Levels
+
+Each identified issue receives a severity level.
+
+### High
+
+A major issue that can break clarity, consistency, or task completion.
+
+### Medium
+
+An issue that weakens usability, system integrity, predictability, or increases friction.
+
+### Low
+
+A smaller issue that may create cumulative impact.
+
+## The skills intentionally avoid numeric scoring and compliance ratings.
+
+# Important
+
+These skills are **audit-only**.
+
+They are designed to identify and explain problems rather than automatically redesigning the interface.
+
+## The UI skill does not evaluate UX flows, while the UX skill does not evaluate visual styling. Keeping these responsibilities separate helps produce more focused audit results.
+
+# Example Workflow
+
+A practical workflow for a designer:
+
+```text
+1. Design your screen in Figma
+        ↓
+2. Run UI Framework Audit
+        ↓
+3. Fix visual and structural issues
+        ↓
+4. Run UX Framework Audit
+        ↓
+5. Fix usability and flow issues
+        ↓
+6. Review the updated design
+        ↓
+7. Repeat when required
+```
+
+This makes the skills useful as an **AI-assisted design review system** rather than a one-time checklist.
+
+---
+
+# Project Structure
+
+```text
+ui-ux-framework/
+│
+├── README.md
+│
+├── ui-framework-compliance-auditor/
+│   └── SKILL.md
+│
+└── ux-framework-compliance-auditor/
+    └── SKILL.md
+```
+
+---
+
+# Author
+
+**Danush Kumar S**
+
+UI/UX Designer | AI-Assisted Designer
+
+Portfolio: https://danushdk.framer.website/
+
+---
+
+## Licence
+
+MIT
