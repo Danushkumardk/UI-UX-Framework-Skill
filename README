@@ -197,23 +197,6 @@ A practical workflow for a designer:
 
 This makes the skills useful as an **AI-assisted design review system** rather than a one-time checklist.
 
----
-
-# Project Structure
-
-```text
-ui-ux-framework/
-│
-├── README.md
-│
-├── ui-framework-compliance-auditor/
-│   └── SKILL.md
-│
-└── ux-framework-compliance-auditor/
-    └── SKILL.md
-```
-
----
 
 # Author
 
